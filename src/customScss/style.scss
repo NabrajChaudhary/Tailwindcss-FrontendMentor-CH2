@@ -1,0 +1,32 @@
+h1,h2,h3,h4,h5,a{
+    font-family: 'Fraunces', serif;
+}
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+.happy-font{
+     font-family: 'Barlow', sans-serif;
+}
+
+.hero-bg{
+    background: url(../images/desktop/image-header.jpg);
+    height: 100vh;
+    background-position: center,center;
+    background-size: cover,cover;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-bg{
+    background: url(../images/mobile/image-header.jpg);
+    height: 100vh;
+    // background-position: center,center;
+    background-position:center ;
+    background-size:cover;
+}
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
